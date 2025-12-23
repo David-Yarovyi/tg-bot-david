@@ -18,7 +18,7 @@ async def start(message: types.Message):
         provider_token=config.PAYMENT_TOKEN,
         currency="USD",
         prices=[
-            types.LabeledPrice(label="Buying the course", amount=5 * 100)
+            types.LabeledPrice(label="Buying the course", amount=100 * 100)
         ]
     )
 
